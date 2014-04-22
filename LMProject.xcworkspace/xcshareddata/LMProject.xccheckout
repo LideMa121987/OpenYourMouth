@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3542A404-176E-4984-BA22-C46AC7FADAA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LMProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>567697C7-487A-4F05-8901-7A5FCCF8B0AF</key>
+		<string>https://github.com/LideMa121987/OpenYourMouth.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LMProject.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>567697C7-487A-4F05-8901-7A5FCCF8B0AF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LideMa121987/OpenYourMouth.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>567697C7-487A-4F05-8901-7A5FCCF8B0AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>567697C7-487A-4F05-8901-7A5FCCF8B0AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LMProject_20140422</string>
+		</dict>
+	</array>
+</dict>
+</plist>
