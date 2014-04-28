@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LMObject : NSObject
+@interface LMObject : NSObject <NSCoding>
 
 @end

@@ -17,6 +17,8 @@
     NSInteger       _attackLevel;
     //防御力
     NSInteger       _defenseLevel;
+    
+    BOOL            _isDead;
 }
 
 
@@ -25,5 +27,9 @@
 
 @property (assign, nonatomic) NSInteger attackLevel;
 @property (assign, nonatomic) NSInteger defenseLevel;
+
+@property (assign, nonatomic) BOOL isDead;
+
+- (void)attackOtherCreature:(LMCreature *)creature;
 
 @end
