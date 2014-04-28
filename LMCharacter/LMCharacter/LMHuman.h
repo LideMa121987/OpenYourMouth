@@ -12,10 +12,7 @@
 
 @interface LMHuman : LMCreature
 {
-
+    
 }
-
-- (void)equip:(LMItem *)item;
-- (void)unequip:(LMItem *)item;
 
 @end

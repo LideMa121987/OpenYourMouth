@@ -1,5 +1,5 @@
 //
-//  LMWeapon.h
+//  LMEquipment.m
 //  LMCharacter
 //
 //  Created by lide on 14-4-28.
@@ -8,6 +8,6 @@
 
 #import "LMEquipment.h"
 
-@interface LMWeapon : LMEquipment
+@implementation LMEquipment
 
 @end

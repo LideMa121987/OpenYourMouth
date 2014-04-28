@@ -10,6 +10,7 @@
 		04686DD1190E4A63001ED092 /* LMHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 04686DD0190E4A63001ED092 /* LMHuman.m */; };
 		04686DD5190E4ADC001ED092 /* LMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04686DD4190E4ADC001ED092 /* LMItem.m */; };
 		04686DD8190E51C6001ED092 /* LMWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 04686DD7190E51C6001ED092 /* LMWeapon.m */; };
+		04686DDB190E5B97001ED092 /* LMEquipment.m in Sources */ = {isa = PBXBuildFile; fileRef = 04686DDA190E5B97001ED092 /* LMEquipment.m */; };
 		049C610019065629003F2463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C60FF19065629003F2463 /* Foundation.framework */; };
 		049C610519065629003F2463 /* LMCharacter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 049C610419065629003F2463 /* LMCharacter.h */; };
 		049C610719065629003F2463 /* LMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C610619065629003F2463 /* LMCharacter.m */; };
@@ -53,6 +54,8 @@
 		04686DD4190E4ADC001ED092 /* LMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMItem.m; sourceTree = "<group>"; };
 		04686DD6190E51C6001ED092 /* LMWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMWeapon.h; sourceTree = "<group>"; };
 		04686DD7190E51C6001ED092 /* LMWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMWeapon.m; sourceTree = "<group>"; };
+		04686DD9190E5B97001ED092 /* LMEquipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMEquipment.h; sourceTree = "<group>"; };
+		04686DDA190E5B97001ED092 /* LMEquipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMEquipment.m; sourceTree = "<group>"; };
 		049C60FC19065629003F2463 /* libLMCharacter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLMCharacter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		049C60FF19065629003F2463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		049C610319065629003F2463 /* LMCharacter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LMCharacter-Prefix.pch"; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 			children = (
 				04686DD3190E4ADC001ED092 /* LMItem.h */,
 				04686DD4190E4ADC001ED092 /* LMItem.m */,
+				04686DD9190E5B97001ED092 /* LMEquipment.h */,
+				04686DDA190E5B97001ED092 /* LMEquipment.m */,
 				04686DD6190E51C6001ED092 /* LMWeapon.h */,
 				04686DD7190E51C6001ED092 /* LMWeapon.m */,
 			);
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04686DDB190E5B97001ED092 /* LMEquipment.m in Sources */,
 				049C612A19065914003F2463 /* LMCreature.m in Sources */,
 				049C610719065629003F2463 /* LMCharacter.m in Sources */,
 				04686DD1190E4A63001ED092 /* LMHuman.m in Sources */,

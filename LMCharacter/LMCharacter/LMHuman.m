@@ -10,14 +10,4 @@
 
 @implementation LMHuman
 
-- (void)equip:(LMItem *)item
-{
-
-}
-
-- (void)unequip:(LMItem *)item
-{
-
-}
-
 @end
