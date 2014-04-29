@@ -9,10 +9,21 @@
 #import "LMCreature.h"
 
 @class LMItem;
+@class LMEquipment;
 
 @interface LMHuman : LMCreature
 {
-    
+    NSUInteger          _packageCapacity;
+    NSMutableArray      *_itemList;
 }
+
+@property (assign, nonatomic) NSUInteger packageCapacity;
+@property (retain, nonatomic, readonly) NSMutableArray *itemList;
+
+- (void)obtain:(LMItem *)item;
+- (void)lose:(LMItem *)item;
+
+- (void)equip:(LMEquipment *)equipment;
+- (void)unequip:(LMEquipment *)equipment;
 
 @end

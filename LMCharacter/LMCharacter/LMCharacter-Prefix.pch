@@ -6,4 +6,8 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
+
+#define LM_SAFE_RELEASE(X)  [X release]; X = nil;
+#define LM_VIEW_RELEASE(X)  [X removeFromSuperview]; [X release]; X = nil;
+
 #endif

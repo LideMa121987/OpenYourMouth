@@ -10,4 +10,28 @@
 
 @implementation LMEquipment
 
+@synthesize isEquiped = _isEquiped;
+
+- (void)setIsEquiped:(BOOL)isEquiped
+{
+    if(isEquiped)
+    {
+        [self equipedByHuman:self.owner];
+    }
+    else
+    {
+        [self unequipedByHuman:self.owner];
+    }
+}
+
+- (void)equipedByHuman:(LMHuman *)human
+{
+
+}
+
+- (void)unequipedByHuman:(LMHuman *)human
+{
+
+}
+
 @end
