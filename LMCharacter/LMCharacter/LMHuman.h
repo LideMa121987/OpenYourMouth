@@ -23,7 +23,7 @@
 - (void)obtain:(LMItem *)item;
 - (void)lose:(LMItem *)item;
 
-- (void)equip:(LMEquipment *)equipment;
-- (void)unequip:(LMEquipment *)equipment;
+//- (void)equip:(LMEquipment *)equipment;
+//- (void)unequip:(LMEquipment *)equipment;
 
 @end

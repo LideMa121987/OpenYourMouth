@@ -31,3 +31,9 @@
 - (void)fix;
 
 @end
+
+@protocol LMItemDelegate <NSObject>
+
+- (void)itemIsDestoryed:(LMItem *)item;
+
+@end

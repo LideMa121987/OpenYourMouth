@@ -59,20 +59,27 @@
     }
 }
 
-- (void)equip:(LMEquipment *)equipment
-{
-    if(equipment.owner == self)
-    {
-        [equipment setIsEquiped:YES];
-    }
-}
+//- (void)equip:(LMEquipment *)equipment
+//{
+//    if(equipment.owner == self)
+//    {
+//        [equipment setIsEquiped:YES];
+//    }
+//}
+//
+//- (void)unequip:(LMEquipment *)equipment
+//{
+//    if(equipment.owner == self)
+//    {
+//        [equipment setIsEquiped:NO];
+//    }
+//}
 
-- (void)unequip:(LMEquipment *)equipment
+#pragma mark - LMItemDelegate
+
+- (void)itemIsDestoryed:(LMItem *)item
 {
-    if(equipment.owner == self)
-    {
-        [equipment setIsEquiped:NO];
-    }
+    [self lose:item];
 }
 
 @end

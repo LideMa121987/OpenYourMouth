@@ -22,6 +22,11 @@
 - (void)destory
 {
     _isDestroyed = YES;
+    
+    if(_owner && [_owner respondsToSelector:@selector(itemIsDestoryed:)])
+    {
+        [_owner itemIsDestoryed:self];
+    }
 }
 
 #pragma mark - super

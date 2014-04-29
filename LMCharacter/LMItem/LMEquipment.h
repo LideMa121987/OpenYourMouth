@@ -11,13 +11,13 @@
 @class LMHuman;
 
 @interface LMEquipment : LMItem
-{
-    BOOL    _isEquiped;
-}
-
-@property (assign, nonatomic) BOOL isEquiped;
-
-- (void)equipedByHuman:(LMHuman *)human;
-- (void)unequipedByHuman:(LMHuman *)human;
+//{
+//    BOOL    _isEquiped;
+//}
+//
+//@property (assign, nonatomic) BOOL isEquiped;
+//
+//- (void)equipedByHuman:(LMHuman *)human;
+//- (void)unequipedByHuman:(LMHuman *)human;
 
 @end
